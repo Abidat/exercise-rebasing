@@ -2,6 +2,7 @@
 
 void printA();
 void printZZ();
+void printB();
 
 int main()
 {
@@ -16,4 +17,9 @@ void printA()
 void printZZ()
 {
   std::cout << "ZZ" << std::endl;
+}
+
+void printB()
+{
+  std::cout << "B" << std::endl;
 }
